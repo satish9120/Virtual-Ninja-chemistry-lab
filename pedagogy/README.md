@@ -8,10 +8,10 @@
 <b> Experiment : Name of the experiment	 <a name="top"></a> <br>
 </p>
 
-<b>Discipline | Fill your discipline name here <b> 
+<b>Discipline | Applied Chemistry <b> 
 :--|:--|
-<b> Lab | Fill your lab name here<b> 
-<b> Experiment|  Fill your experiment name here   <b> 
+<b> Lab | Basic Chemistry Lab<b> 
+<b> Experiment|  Preparation of Standard Solutions and Reagents   <b> 
 
 
 <h4> [1. Focus Area](#LO)
@@ -29,9 +29,9 @@
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-1.|   <br>   |    |   
-2.|   <br>   |    |   
-3.|   <br>   |    |   
+1.|   <br>   | Understand the concept of molarity and how to calculate it   |understand |Explain |   
+2.|   <br>   |  Accurately prepare a standard solution using proper lab techniques | Apply | Prepare |  
+3.|   <br>   | Demonstrate safe handing and labeling of chemical reagents   |  Apply | 
 
 <br/>
 <div align="right">
@@ -62,7 +62,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
   
 <br>
 
-Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
+Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task-
 :--|:--|:--|:-:
 1.|   <br>  |   <br>  | <br> 
 2.|   <br>  |   <br>  | <br> 
