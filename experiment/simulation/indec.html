@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Standard Solution Simulator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Standard Solution Preparation Simulator</h1>
+
+      <div class="form">
+        <label for="solute">Select Solute:</label>
+        <select id="solute">
+          <option value="NaCl">NaCl (58.44 g/mol)</option>
+          <option value="KCl">KCl (74.55 g/mol)</option>
+          <option value="HCl">HCl (36.46 g/mol)</option>
+        </select>
+
+        <label for="molarity">Desired Molarity (mol/L):</label>
+        <input type="number" id="molarity" step="0.01" />
+
+        <label for="volume">Solution Volume (L):</label>
+        <input type="number" id="volume" step="0.01" />
+
+        <button onclick="calculate()">Calculate</button>
+      </div>
+
+      <div id="output" class="output"></div>
+
+      <div class="beaker-container">
+        <div id="beaker" class="beaker">
+          <div id="liquid" class="liquid"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
