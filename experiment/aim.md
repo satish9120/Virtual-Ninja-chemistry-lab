@@ -1,1 +1,4 @@
-### Aim of the experiment
+Aim of Experiment:
+
+
+The objective of preparing standard solutions and reagents is to create chemical solutions of accurately known concentrations and compositions. These are essential for carrying out reliable and reproducible chemical experiments, especially in analytical chemistry. Standard solutions are used as references in titrations, calibration of instruments, and quantitative analysis. Proper preparation ensures precision, accuracy, and consistency in experimental results.
