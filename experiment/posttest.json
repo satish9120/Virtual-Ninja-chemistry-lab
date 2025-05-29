@@ -1,39 +1,46 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+[
+  {
+    "question": "What is a standard solution in chemistry?",
+    "options": {
+      "A": "A solution that changes color",
+      "B": "A solution of unknown concentration",
+      "C": "A solution with a known and fixed concentration",
+      "D": "A solution that evaporates quickly"
     },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+    "answer": "C",
+    "explanation": "A standard solution has a known and fixed concentration, used in titrations and quantitative analysis for accurate measurements."
+  },
+  {
+    "question": "Which of the following is a suitable primary standard substance?",
+    "options": {
+      "A": "Hydrochloric acid (HCl)",
+      "B": "Sodium hydroxide (NaOH)",
+      "C": "Sulfuric acid (H2SO4)",
+      "D": "Sodium carbonate (Na2CO3)"
+    },
+    "answer": "D",
+    "explanation": "Sodium carbonate (Na2CO3) is stable, pure, and does not absorb moisture, making it ideal for use as a primary standard."
+  },
+  {
+    "question": "How many grams of NaCl are needed to prepare 1 liter of 0.1 M NaCl solution? (Molar mass = 58.44 g/mol)",
+    "options": {
+      "A": "0.584 g",
+      "B": "5.84 g",
+      "C": "58.4 g",
+      "D": "1.0 g"
+    },
+    "answer": "B",
+    "explanation": "To prepare 0.1 M solution: 0.1 mol × 58.44 g/mol = 5.844 g ≈ 5.84 g of NaCl is required in 1 liter of solution."
+  },
+  {
+    "question": "Why is NaOH not used as a primary standard reagent?",
+    "options": {
+      "A": "It is not soluble in water",
+      "B": "It is too expensive",
+      "C": "It absorbs moisture and CO₂ from the air",
+      "D": "It reacts with plastic containers"
+    },
+    "answer": "C",
+    "explanation": "NaOH is hygroscopic and absorbs both moisture and carbon dioxide from air, making it difficult to weigh accurately for standard solutions."
+  }
+]
