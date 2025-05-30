@@ -2,38 +2,106 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "When preparing a 0.1M standard solution, which factor is MOST critical for achieving accurate concentration?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Precise weighing of the primary standard",
+        "b": "Color of the solution",
+        "c": "Speed of dissolution",
+        "d": "Temperature of the storage room"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Accurate weighing is fundamental for preparing standard solutions of precise molarity.",
+        "b": "Color has no effect on solution concentration.",
+        "c": "While dissolution is important, speed doesn't affect final concentration.",
+        "d": "Storage temperature matters for stability but not initial preparation accuracy."
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which characteristic is NOT required for a chemical to be suitable as a primary standard?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "High molecular weight",
+        "b": "Stability in air",
+        "c": "Bright fluorescence",
+        "d": "High purity"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "High MW is actually desirable (though not absolutely required) for better weighing accuracy.",
+        "b": "Stability is essential for reliable standards.",
+        "c": "Fluorescence has no relevance to standard qualification.",
+        "d": "High purity is absolutely necessary for primary standards."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the purpose of performing multiple standardizations of a reagent solution?",
+      "answers": {
+        "a": "To improve the precision of the concentration determination",
+        "b": "To change the solution's chemical properties",
+        "c": "To make the solution more concentrated",
+        "d": "To reduce the volume of solution needed"
+      },
+      "explanations": {
+        "a": "Replicate standardizations reduce random errors and improve precision.",
+        "b": "Standardization doesn't alter chemical properties.",
+        "c": "Multiple standardizations don't affect concentration.",
+        "d": "Volume requirements aren't changed by repeated standardization."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Why should standard solutions be stored in tightly sealed containers?",
+      "answers": {
+        "a": "To prevent contamination and concentration changes",
+        "b": "To make them easier to identify",
+        "c": "To protect them from light only",
+        "d": "To allow for gas exchange"
+      },
+      "explanations": {
+        "a": "Sealing prevents evaporation (concentration changes) and contamination.",
+        "b": "Identification is done by labeling, not sealing.",
+        "c": "While light protection is important for some standards, it's not the main reason for sealing.",
+        "d": "Gas exchange would alter the solution composition."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A 0.1N solution of HCl was standardized against sodium carbonate. The titration required 25.4 mL of HCl to reach the endpoint with 0.134g Na₂CO₃. What is the exact normality of the HCl? (MW Na₂CO₃ = 106 g/mol)",
+      "answers": {
+        "a": "0.0994 N",
+        "b": "0.100 N",
+        "c": "0.101 N",
+        "d": "0.102 N"
+      },
+      "explanations": {
+        "a": "Correct calculation: meq Na₂CO₃ = 0.134g/(106 g/mol ÷ 2) = 0.002528 meq; N HCl = meq/volume = 0.002528/0.0254 L = 0.0994 N",
+        "b": "This would be the approximate value without considering exact measurements.",
+        "c": "This might result from miscalculating the equivalent weight.",
+        "d": "This would represent a significant calculation error."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which of these errors would MOST significantly affect standardization results?",
+      "answers": {
+        "a": "Not correcting for the indicator blank",
+        "b": "Using a slightly warm solution",
+        "c": "Performing titrations in daylight",
+        "d": "Using a plastic beaker for mixing"
+      },
+      "explanations": {
+        "a": "Indicator blank corrections are crucial for precise standardization.",
+        "b": "Small temperature variations have minimal effect if solutions are equilibrated.",
+        "c": "Daylight typically doesn't affect most standardizations.",
+        "d": "Plastic beakers are acceptable for many standardizations."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
   ]
 }

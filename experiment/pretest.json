@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of preparing standard solutions in analytical chemistry?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To serve as a reference for quantitative analysis",
+        "b": "To clean laboratory glassware",
+        "c": "To store chemicals long-term",
+        "d": "To dilute other solutions"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Standard solutions are prepared with known concentrations to serve as references in quantitative analysis.",
+        "b": "Standard solutions are not used for cleaning purposes.",
+        "c": "Storage is not the primary purpose of standard solutions.",
+        "d": "While standards may be used in dilution, this is not their primary purpose."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following is essential when preparing a primary standard?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "High purity (99.9% or higher)",
+        "b": "Bright color for visibility",
+        "c": "Low molecular weight only",
+        "d": "Solubility in all solvents"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Primary standards must be of exceptionally high purity.",
+        "b": "Color is irrelevant for a primary standard.",
+        "c": "While low MW can be helpful, it's not the only requirement.",
+        "d": "Solubility in all solvents is not necessary."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the proper way to prepare a standard solution by dilution?",
+      "answers": {
+        "a": "Measure the solute carefully and dilute to the mark in a volumetric flask",
+        "b": "Add arbitrary amounts of solute and solvent",
+        "c": "Mix concentrated solutions with water in a beaker",
+        "d": "Evaporate solvent from a more concentrated solution"
+      },
+      "explanations": {
+        "a": "Volumetric flasks provide precise measurement for standard preparation.",
+        "b": "Arbitrary measurements won't give accurate concentrations.",
+        "c": "Beakers don't provide precise volume measurement.",
+        "d": "Evaporation would concentrate, not dilute, a solution."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why is it important to standardize some solutions before use?",
+      "answers": {
+        "a": "To determine their exact concentration",
+        "b": "To change their chemical composition",
+        "c": "To make them more concentrated",
+        "d": "To remove all impurities"
+      },
+      "explanations": {
+        "a": "Standardization establishes the precise concentration of a solution.",
+        "b": "The chemical composition typically remains unchanged.",
+        "c": "Standardization doesn't necessarily increase concentration.",
+        "d": "While impurities may affect standardization, removal isn't the main goal."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which glassware is most appropriate for preparing a standard solution?",
+      "answers": {
+        "a": "Volumetric flask",
+        "b": "Graduated cylinder",
+        "c": "Beaker",
+        "d": "Erlenmeyer flask"
+      },
+      "explanations": {
+        "a": "Volumetric flasks are designed for precise solution preparation.",
+        "b": "Graduated cylinders lack the precision needed for standards.",
+        "c": "Beakers don't provide accurate volume measurement.",
+        "d": "Erlenmeyer flasks aren't designed for precise volume measurements."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
