@@ -1,4 +1,4 @@
-###Theory:
+Theory:
 1. Introduction:
 In chemical analysis, especially in quantitative and qualitative experiments, it is essential to use solutions of known concentration—referred to as standard solutions—and well-defined chemical reagents. The reliability of the results heavily depends on the accurate preparation and use of these solutions. This experiment focuses on understanding the types, methods, and importance of preparing standard solutions and reagents.
 
