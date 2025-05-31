@@ -1,2 +1,1 @@
-## Experiment name
-Preparation of Standard Solutions and Reagents
+## Preparation of Standard Solutions and Reagents
