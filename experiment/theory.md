@@ -1,131 +1,123 @@
-# Theory
+###Theory:
+1. Introduction:
+In chemical analysis, especially in quantitative and qualitative experiments, it is essential to use solutions of known concentration—referred to as standard solutions—and well-defined chemical reagents. The reliability of the results heavily depends on the accurate preparation and use of these solutions. This experiment focuses on understanding the types, methods, and importance of preparing standard solutions and reagents.
 
-## 1. Introduction
+2. Standard Solutions:
+A standard solution is a solution with a known, precise concentration of a solute. It is used in various chemical analyses such as titrations, spectrophotometry, and chromatography to determine the unknown concentration of other substances.
 
-In chemical analysis—particularly in quantitative and qualitative experiments—it is essential to use solutions of known concentration (*standard solutions*) and well-defined chemical reagents. Reliable results depend on the **accurate preparation and use** of these solutions.
+There are two main types:
 
----
+a) Primary Standard Solutions:
+These are prepared by dissolving a highly pure, stable compound (called a primary standard) in a known volume of solvent.
 
-## 2. Standard Solutions
+Characteristics of a good primary standard:
 
-A **standard solution** has a known concentration of solute. It is used in analyses like **titration**, **spectrophotometry**, and **chromatography**.
+High purity
 
-### a) Primary Standard Solutions
+Stable (does not decompose over time)
 
-Prepared by dissolving a **pure, stable compound** in a known volume of solvent.
+Non-hygroscopic (does not absorb water from the air)
 
-**Characteristics of a good primary standard:**
-- High purity  
-- Stable  
-- Non-hygroscopic  
-- High molar mass  
-- Soluble in water
+High molar mass (to reduce weighing errors)
 
-**Examples:**
-- Sodium carbonate (Na₂CO₃)  
-- Potassium hydrogen phthalate (KHP)  
-- Oxalic acid (H₂C₂O₄·2H₂O)
+Soluble in water
 
-**Image: Volumetric Flask**
+Examples:
 
-![Uploading download (1).jpg…]()
+Sodium carbonate (Na₂CO₃)
 
+Potassium hydrogen phthalate (KHP)
 
----
+Oxalic acid (H₂C₂O₄·2H₂O)
 
-### b) Secondary Standard Solutions
+b) Secondary Standard Solutions:
+These are solutions whose concentration cannot be prepared directly with sufficient accuracy. They are standardized by titrating against a primary standard.
 
-These **cannot be prepared accurately by weighing**, and are standardized by titrating against a primary standard.
+Examples:
 
-**Examples:**
-- Hydrochloric acid (HCl)  
-- Sodium hydroxide (NaOH)  
-- Potassium permanganate (KMnO₄)
+Hydrochloric acid (HCl)
 
-**Image: Titration Setup**
+Sodium hydroxide (NaOH)
 
-![Titration Setup](https://upload.wikimedia.org/wikipedia/commons/e/e0/Titration_apparatus.jpg)
+Potassium permanganate (KMnO₄)
 
----
+3. Reagents:
+Reagents are chemical substances used to detect, measure, or create other substances in chemical reactions. They may be simple or complex and are used in both qualitative and quantitative experiments.
 
-## 3. Reagents
+Types of reagents:
 
-Reagents are chemicals used to detect, measure, or create substances in chemical reactions.
+Analytical Reagents (AR): High purity, used for lab experiments.
 
-### Types:
-- **Analytical Reagents (AR):** High purity, used for lab experiments  
-- **Laboratory Reagents (LR):** Slightly lower purity  
-- **Volumetric Reagents:** Must be standardized, used in titrations  
+Laboratory Reagents (LR): Slightly lower purity, used for routine analysis.
 
-**Proper preparation includes:**
-- Accurate measurement  
-- Use of distilled/deionized water  
-- Safe mixing  
-- Proper labeling  
+Volumetric Reagents: Used in titrations and must be accurately standardized.
 
-**Image: Reagent Bottles**
+Proper reagent preparation includes:
 
-![Reagent Bottles](https://upload.wikimedia.org/wikipedia/commons/1/17/Chemical_bottles.jpg)
+Accurate measurement of chemicals
 
----
+Use of appropriate solvents (typically distilled or deionized water)
 
-## 4. Calculations
+Safe mixing procedures
 
-**Molarity (M)** is calculated as:
+Correct labeling (name, concentration, date, preparer’s name)
 
+4. Calculations:
+The concentration of a solution is usually expressed in molarity (M), which is defined as:
 
+Molarity (M)
+=
+moles of solute
+liters of solution
+Molarity (M)= 
+liters of solution
+moles of solute
+​
+ 
 To prepare a standard solution:
 
-### Example:
-To prepare 250 mL of 0.1 M NaCl:
+Mass of solute (g)
+=
+Molarity (mol/L)
+×
+Volume (L)
+×
+Molar mass (g/mol)
+Mass of solute (g)=Molarity (mol/L)×Volume (L)×Molar mass (g/mol)
+Example:
+To prepare 250 mL of 0.1 M NaCl solution:
 
-- Molar mass = 58.44 g/mol  
-- Moles = 0.1 × 0.25 = 0.025 mol  
-- Mass = 0.025 × 58.44 = **1.46 g**
+Molar mass of NaCl = 58.44 g/mol
 
-**Image: Molarity Formula**
+Required moles = 0.1 mol/L × 0.25 L = 0.025 mol
 
-![Molarity Formula](https://upload.wikimedia.org/wikipedia/commons/e/e3/Chemical_concentration_units_en.svg)
+Required mass = 0.025 mol × 58.44 g/mol = 1.46 g
 
----
+5. Glassware Used:
+Volumetric flask: for accurate volume measurement
 
-## 5. Glassware Used
+Beaker: for dissolving solutes
 
-| Glassware           | Purpose                                 |
-|---------------------|------------------------------------------|
-| Volumetric flask    | For accurate volume measurement          |
-| Beaker              | For dissolving solutes                   |
-| Analytical balance  | For weighing solutes                     |
-| Pipette/Burette     | For transferring/titration               |
-| Funnel, Stirrer     | For mixing and pouring                   |
-| Wash bottle         | For rinsing with distilled water         |
+Analytical balance: for weighing solutes
 
-**Image: Lab Glassware**
+Pipette/Burette: for titrations or transferring specific volumes
 
-![Lab Glassware](https://upload.wikimedia.org/wikipedia/commons/f/fb/Labglassware.jpg)
+Funnel, Stirring rod, Wash bottle
 
----
+6. Importance of Proper Preparation:
+Accuracy in Results: Standard solutions help in obtaining precise values during titration or instrumental analysis.
 
-## 6. Importance of Proper Preparation
+Reproducibility: Experiments can be repeated with reliable outcomes.
 
-- **Accuracy:** Required for titration/instrumental analysis  
-- **Reproducibility:** Enables consistent results  
-- **Calibration:** Standard solutions calibrate instruments  
-- **Quality Assurance:** Especially important in pharmaceuticals and food industries
+Calibration: Instruments require standard solutions for calibration.
 
----
+Quality Assurance: In industries (e.g., pharmaceuticals, food), maintaining the quality of reagents ensures product consistency and safety.
 
-## 7. Storage and Labeling
+7. Storage and Labeling:
+All prepared solutions and reagents must be:
 
-Prepared solutions should be:
+Stored in clean, labeled containers
 
-- Stored in **clean, labeled containers**
-- Dated and initialed by the **preparer**
-- Protected from **light and contamination**
+Protected from light and contamination
 
-**Image: Properly Labeled Bottles**
-
-![Labeled Bottles](https://upload.wikimedia.org/wikipedia/commons/2/22/Chemical_storage.jpg)
-
----
-
+Dated, with the name of the preparer and concentration clearly mentioned. add some images 
