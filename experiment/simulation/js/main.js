@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-//Your JavaScript goes in here
-=======
->>>>>>> 3d3c8bfea1c4c98e523cccb586761b8e947eb43e
 document.addEventListener('DOMContentLoaded', function () {
     // DOM elements
     const soluteBeaker = document.getElementById('soluteBeaker');
@@ -45,12 +41,8 @@ document.addEventListener('DOMContentLoaded', function () {
     solutionBeaker.addEventListener('click', handleSolutionClick);
     soluteSelect.addEventListener('change', updateSoluteDisplay);
 
-<<<<<<< HEAD
     // Initialize with step 1 active
     updateSteps();
-=======
-    updateSteps(); // Initial step
->>>>>>> 3d3c8bfea1c4c98e523cccb586761b8e947eb43e
 
     function updateSoluteDisplay() {
         const solute = soluteSelect.value;
@@ -61,16 +53,9 @@ document.addEventListener('DOMContentLoaded', function () {
     function calculateMass() {
         const concentration = parseFloat(concentrationInput.value);
         targetVolume = parseFloat(volumeInput.value);
-<<<<<<< HEAD
-        const volumeInLiters = targetVolume / 1000; // Convert mL to L
-        const solute = soluteSelect.value;
-
-        // Molar masses (g/mol)
-=======
         const volumeInLiters = targetVolume / 1000;
         const solute = soluteSelect.value;
 
->>>>>>> 3d3c8bfea1c4c98e523cccb586761b8e947eb43e
         const molarMasses = {
             'NaCl': 58.44,
             'NaOH': 40.00,
@@ -81,10 +66,6 @@ document.addEventListener('DOMContentLoaded', function () {
         requiredMassDisplay.textContent = requiredMass.toFixed(4) + ' g';
         massDisplay.style.display = 'block';
 
-<<<<<<< HEAD
-        // Update steps
-=======
->>>>>>> 3d3c8bfea1c4c98e523cccb586761b8e947eb43e
         currentStep = 2;
         updateSteps();
 
@@ -102,10 +83,6 @@ document.addEventListener('DOMContentLoaded', function () {
         statusDisplay.textContent = "Transferring solute...";
         soluteTransferred = true;
 
-<<<<<<< HEAD
-        // Transfer to solution beaker
-=======
->>>>>>> 3d3c8bfea1c4c98e523cccb586761b8e947eb43e
         transferSolute();
     }
 
@@ -128,20 +105,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
         pourWater();
 
-<<<<<<< HEAD
         statusDisplay.textContent = `Added ${addVolume}mL water (${currentVolume}/${targetVolume}mL). Click to add more.`;
 
-=======
->>>>>>> 3d3c8bfea1c4c98e523cccb586761b8e947eb43e
         if (currentVolume >= targetVolume) {
             currentStep = 4;
             updateSteps();
             statusDisplay.textContent = `Reached target volume (${targetVolume}mL). Click solution beaker to mix.`;
-<<<<<<< HEAD
-=======
-        } else {
-            statusDisplay.textContent = `Added ${addVolume}mL water (${currentVolume} / ${targetVolume}mL). Click to add more.`;
->>>>>>> 3d3c8bfea1c4c98e523cccb586761b8e947eb43e
         }
     }
 
