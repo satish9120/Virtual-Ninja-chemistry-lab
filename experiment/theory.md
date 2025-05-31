@@ -28,7 +28,8 @@ Prepared by dissolving a **pure, stable compound** in a known volume of solvent.
 
 **Image: Volumetric Flask**
 
-![Volumetric Flask](simulation/images/download (1).jpg)
+![Uploading download (1).jpg…]()
+
 
 ---
 
