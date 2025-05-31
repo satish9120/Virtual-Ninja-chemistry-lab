@@ -9,6 +9,6 @@ EMPTY
 | SNo. | Name | Email | Institute | ID |
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | Satish Yadav | satishg8055@gmail.com| Rajkiya Engineering College | Student |
-|2 | Manish Singh |
-|3 |Shubham Yadav |
-|4| Sani Verma |
+|2 | Manish Singh | singh632006@gmail.com|  Rajkiya Engineering College | Student |
+|3 |Shubham Yadav |shubhamyadav2004my@gmail.com| Rajkiya Engineering College | Student |
+|4| Sani Verma |shaniverma2843343@gmail.com| Rajkiya Engineering College | Student |
