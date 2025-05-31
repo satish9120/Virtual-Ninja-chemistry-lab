@@ -1,80 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Solution Preparation Simulator</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-  </head>
 
-  <body>
-    <div class="sidebar">
-      <div class="row-flex">
-        <h3>Procedure</h3>
-        <hr id="horizontal" />
-        <div class="step" id="step1">1. Select solute and set parameters</div>
-        <div class="step" id="step2">2. Calculate required mass</div>
-        <div class="step" id="step3">3. Click solute to transfer</div>
-        <div class="step" id="step4">
-          4. Click water beaker to add solvent (50mL per click)
-        </div>
-        <div class="step" id="step5">5. Click solution beaker to mix</div>
-      </div>
-      <div class="row-flex">
-        <div class="control-group">
-          <hr id="horizontal" />
-          <label for="solute-select">Solute:</label>
-          <select id="solute-select">
-            <option value="NaCl">Sodium Chloride (NaCl)</option>
-            <option value="NaOH">Sodium Hydroxide (NaOH)</option>
-            <option value="HCl">Hydrochloric Acid (HCl)</option>
-          </select>
-        </div>
 
-        <div class="control-group">
-          <label for="concentration">Concentration (mol/L):</label>
-          <input
-            type="number"
-            id="concentration"
-            min="0.1"
-            max="5"
-            step="0.1"
-            value="0.1"
-          />
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solution Preparation Simulator</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js"></script>
+</head>
 
-        <div class="control-group">
-          <label for="volume">Volume (mL):</label>
-          <input
-            type="number"
-            id="volume"
-            min="50"
-            max="1000"
-            step="50"
-            value="250"
-          />
-        </div>
+<body>
+  <div class="sidebar">
+    <h3>Procedure</h3>
+    <div class="step" id="step1">1. Select solute and set parameters</div>
+    <div class="step" id="step2">2. Calculate required mass</div>
+    <div class="step" id="step3">3. Click solute to transfer</div>
+    <div class="step" id="step4">4. Click water beaker to add solvent (50mL per click)</div>
+    <div class="step" id="step5">5. Click solution beaker to mix</div>
 
-        <button id="calculate-btn">Calculate Required Mass</button>
-
-        <div class="control-group" id="mass-display" style="display: none">
-          <label>Required Mass:</label>
-          <div id="required-mass">0.0000 g</div>
-        </div>
-      </div>
+    <div class="control-group">
+      <label for="solute-select">Solute:</label>
+      <select id="solute-select">
+        <option value="NaCl">Sodium Chloride (NaCl)</option>
+        <option value="NaOH">Sodium Hydroxide (NaOH)</option>
+        <option value="HCl">Hydrochloric Acid (HCl)</option>
+      </select>
     </div>
 
-    <div class="main-content">
-      <h1>Preparation of Standard Solution</h1>
+    <div class="control-group">
+      <label for="concentration">Concentration (mol/L):</label>
+      <input type="number" id="concentration" min="0.1" max="5" step="0.1" value="0.1">
+    </div>
 
-      <div class="lab-equipment">
-        <div class="balance">
-          <div class="balance-display">0.0000 g</div>
-          <div class="balance-pan balance-pan-left"></div>
-          <div class="balance-pan balance-pan-right"></div>
+    <div class="control-group">
+      <label for="volume">Volume (mL):</label>
+      <input type="number" id="volume" min="50" max="1000" step="50" value="250">
+    </div>
+
+    <button id="calculate-btn">Calculate Required Mass</button>
+
+    <div class="control-group" id="mass-display" style="display: none;">
+      <label>Required Mass:</label>
+      <div id="required-mass">0.0000 g</div>
+    </div>
+
+
+  </div>
+
+  <div class="main-content">
+    <h1> Preparation of Standard Solution</h1>
+
+    <div class="lab-equipment">
+      <div class="balance">
+        <div class="balance-display">0.0000 g</div>
+        <div class="balance-pan balance-pan-left"></div>
+        <div class="balance-pan balance-pan-right"></div>
+
+      </div>
+
+      <div class="beakers-row">
+        <div class="beaker" id="soluteBeaker">
+          <div class="beaker-top"></div>
+          <div class="solute" id="soluteParticles"></div>
+          <div class="solute-display" id="soluteName">NaCl</div>
+          <div class="chemical-name">Solute</div>
         </div>
 
+<<<<<<< HEAD
         <div class="beakers-row">
           <div class="beaker" id="soluteBeaker">
             <div class="beaker-top"></div>
@@ -102,8 +95,30 @@
         <div id="status-display">
           <label>Status:</label>
           <div id="status">Ready to begin</div>
+=======
+        <div class="beaker" id="solutionBeaker">
+          <div class="beaker-top"></div>
+          <div class="liquid" id="solutionLiquid"></div>
+          <div class="solute" id="solutionSolute"></div>
+          <div class="chemical-name">Solution</div>
+          <div class="stirring-rod" id="stirringRod"></div>
+        </div>
+
+        <div class="beaker water-beaker" id="waterBeaker">
+          <div class="beaker-top"></div>
+          <div class="liquid" id="water"></div>
+          <div class="chemical-name">Water</div>
+>>>>>>> c0af65a05e5a4fb25e33180635d0178cf50de0fb
         </div>
       </div>
+      <div id="status-display">
+        <label>Status:</label>
+        <div id="status">Ready to begin</div>
+      </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
+
+       

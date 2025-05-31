@@ -1,0 +1,44 @@
+{
+  "details": [
+    {
+      "Experiment": "preparation of Standard solution and reagents",
+      "Lab": "Basic chemistry Lab",
+      "Discipline": "Department of Applied and Humanities ",
+      "Technology": "HTML CSS Javascript"
+    }
+  ],
+
+  "developer": [
+    {
+      "Developer": "Mr. Ravish Singh Rajput",
+      "Institute": "REC Kannauj",
+      "InstituteAcronym": "RECK"
+    }
+  ],
+
+  "contributer": [
+    {
+      "Contributer": "Satish yadav",
+      "Institute": "REC Kannauj",
+      "InstituteAcronym": "RECK"
+    },
+
+    {
+      "Contributer": "manish Singh",
+      "Institute": "REC Kannauj",
+      "InstituteAcronym": "RECK"
+    },
+
+    {
+      "Contributer": "Shani Verma",
+      "Institute": "REC Kannauj",
+      "InstituteAcronym": "RECK"
+    },
+
+    {
+      "Contributer": "Shubham Yadav",
+      "Institute": "REC Kannauj",
+      "InstituteAcronym": "RECK"
+    }
+  ]
+}

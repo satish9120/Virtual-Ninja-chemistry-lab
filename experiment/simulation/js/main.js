@@ -1,4 +1,3 @@
-//Your JavaScript goes in here
 document.addEventListener('DOMContentLoaded', function () {
     // DOM elements
     const soluteBeaker = document.getElementById('soluteBeaker');
@@ -54,10 +53,9 @@ document.addEventListener('DOMContentLoaded', function () {
     function calculateMass() {
         const concentration = parseFloat(concentrationInput.value);
         targetVolume = parseFloat(volumeInput.value);
-        const volumeInLiters = targetVolume / 1000; // Convert mL to L
+        const volumeInLiters = targetVolume / 1000;
         const solute = soluteSelect.value;
 
-        // Molar masses (g/mol)
         const molarMasses = {
             'NaCl': 58.44,
             'NaOH': 40.00,
@@ -68,7 +66,6 @@ document.addEventListener('DOMContentLoaded', function () {
         requiredMassDisplay.textContent = requiredMass.toFixed(4) + ' g';
         massDisplay.style.display = 'block';
 
-        // Update steps
         currentStep = 2;
         updateSteps();
 
@@ -108,12 +105,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
         pourWater();
 
+        statusDisplay.textContent = `Added ${addVolume}mL water (${currentVolume}/${targetVolume}mL). Click to add more.`;
+
         if (currentVolume >= targetVolume) {
             currentStep = 4;
             updateSteps();
             statusDisplay.textContent = `Reached target volume (${targetVolume}mL). Click solution beaker to mix.`;
-        } else {
-            statusDisplay.textContent = `Added ${addVolume}mL water (${currentVolume}/${targetVolume}mL). Click to add more.`;
         }
     }
 

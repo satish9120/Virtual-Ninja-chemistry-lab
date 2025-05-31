@@ -120,4 +120,4 @@ Stored in clean, labeled containers
 
 Protected from light and contamination
 
-Dated, with the name of the preparer and concentration clearly mentioned.
+Dated, with the name of the preparer and concentration clearly mentioned. add some images 
