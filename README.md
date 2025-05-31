@@ -3,16 +3,16 @@
 
 <b>Discipline | <b>Department of Applied science & Humanities
 :--|:--|
-<b> Lab | <b> Chemistry
+<b> Lab | <b> Basic Chemistry lab
 <b> Experiment|     <b>1. Preparation of standard solutions and reagents
 
 ### About the Experiment 
 
 Fill a brief description of this experiment here
 
-<b>Name of Developer | <b> Dr. Ravish singh Rajput
+<b>Name of Developer | <b> Dr. Ravish Singh Rajput
 :--|:--|
-<b> Institute | <b> Rajkiya engineering college  
+<b> Institute | <b> Rajkiya Engineering College  
 <b> Email id|     <b> ravishrajput@reck.ac.in 
 <b> Department |  Deparment of Applied Science & Humanities
 
