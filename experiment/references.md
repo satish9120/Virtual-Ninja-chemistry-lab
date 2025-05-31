@@ -1,22 +1,26 @@
-References (APA Style); 
+ 1. Vogel, A. I. (1989).
+Vogel's Textbook of Quantitative Chemical Analysis (5th ed.). Longman Scientific & Technical.
 
-Vogel, A. I. (1989). Vogel's Textbook of Quantitative Chemical Analysis (5th ed.). Longman Scientific & Technical.
+Classic reference for detailed methodologies in preparing standard solutions and reagents.
 
-This classic textbook provides detailed methods for preparing standard solutions and reagents.
+2. Harris, D. C. (2015).
+Quantitative Chemical Analysis (9th ed.). W. H. Freeman and Company.
 
-Harris, D. C. (2015). Quantitative Chemical Analysis (9th ed.). W. H. Freeman and Company.
+Modern textbook covering the theory and practical aspects of analytical chemistry, including solution preparation.
 
-A modern and widely used analytical chemistry textbook that explains the theory and practice of preparing and using standard solutions.
+3. Skoog, D. A., West, D. M., Holler, F. J., & Crouch, S. R. (2013).
+Fundamentals of Analytical Chemistry (9th ed.). Cengage Learning.
 
-Skoog, D. A., West, D. M., Holler, F. J., & Crouch, S. R. (2013). Fundamentals of Analytical Chemistry (9th ed.). Cengage Learning.
+Comprehensive guide to principles and techniques in reagent and standard solution preparation.
 
-A key reference for understanding the principles behind reagent and standard solution preparation in the laboratory.
+4. University of Cambridge, Department of Chemistry. (n.d.).
+Preparation of Solutions. Retrieved from https://www.ch.cam.ac.uk
 
-University of Cambridge, Department of Chemistry. (n.d.). Preparation of Solutions. Retrieved from https://www.ch.cam.ac.uk
+University-level educational material detailing standard techniques for solution preparation.
 
-Educational resource from a university chemistry department outlining solution preparation techniques.
+5. American Chemical Society (ACS). (2020).
+Chemical Safety Manual for Small Businesses. ACS Publications.
 
-American Chemical Society (ACS). (2020). Chemical Safety Manual for Small Businesses. ACS Publications.
+Includes safety guidelines and best practices for handling and preparing chemical solutions.
 
-Includes best practices and safety protocols relevant to preparing chemical solutions.
 
