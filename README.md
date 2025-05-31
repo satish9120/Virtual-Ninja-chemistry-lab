@@ -1,24 +1,26 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Department of Applied science & Humanities
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Basic Chemistry lab
+<b> Experiment|     <b>1. Preparation of standard solutions and reagents
 
 ### About the Experiment 
 
 Fill a brief description of this experiment here
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Dr. Ravish Singh Rajput
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b> Rajkiya Engineering College  
+<b> Email id|     <b> ravishrajput@reck.ac.in 
+<b> Department |  Deparment of Applied Science & Humanities
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | Satish yadav | student | cse | Rajkiy Engineering College Kannauj | satishg8055@gmail.com
+2 | Manish singh  | student | cse | Rajkiy Engineering College Kannauj | singh632006@gmail.com
+3|Shubham yadav |student |cse |Rajkiy Engineering College Kannauj |shubhamyadav2004my@gmail.com
+4 | Shani verma |student |cse | Rajkiy Engineering College Kannauj |shaniverma2843343@gmail.com
