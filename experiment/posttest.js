@@ -88,72 +88,64 @@
   /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
-  const myQuestions = [
-    {
-      "question": "What is a standard solution in chemistry?",
-      "options": {
-        "A": "A solution that changes color",
-        "B": "A solution of unknown concentration",
-        "C": "A solution with a known and fixed concentration",
-        "D": "A solution that evaporates quickly"
-      },
-      "answer": "C",
-      "explanation": "A standard solution has a known and fixed concentration, used in titrations and quantitative analysis for accurate measurements."
+const myQuestions = [
+  {
+    question: "Which of the following is the most important characteristic of a primary standard?",
+    answers: {
+      A: "High solubility in water",
+      B: "High degree of impurities",
+      C: "Known and stable molar mass",
+      D: "Strong odor"
     },
-    {
-      "question": "Which of the following is a suitable primary standard substance?",
-      "options": {
-        "A": "Hydrochloric acid (HCl)",
-        "B": "Sodium hydroxide (NaOH)",
-        "C": "Sulfuric acid (H2SO4)",
-        "D": "Sodium carbonate (Na2CO3)"
-      },
-      "answer": "D",
-      "explanation": "Sodium carbonate (Na2CO3) is stable, pure, and does not absorb moisture, making it ideal for use as a primary standard."
+    correctAnswer: "C",
+    explanation: "A primary standard must have a known and constant molar mass so you can accurately determine concentration when weighing it."
+  },
+  {
+    question: "What volume of 0.1 M NaOH solution is needed to neutralize 0.025 mol of HCl?",
+    answers: {
+      A: "0.050 L",
+      B: "0.025 L",
+      C: "0.200 L",
+      D: "0.125 L"
     },
-    {
-      "question": "How many grams of NaCl are needed to prepare 1 liter of 0.1 M NaCl solution? (Molar mass = 58.44 g/mol)",
-      "options": {
-        "A": "0.584 g",
-        "B": "5.84 g",
-        "C": "58.4 g",
-        "D": "1.0 g"
-      },
-      "answer": "B",
-      "explanation": "To prepare 0.1 M solution: 0.1 mol × 58.44 g/mol = 5.844 g ≈ 5.84 g of NaCl is required in 1 liter of solution."
+    correctAnswer: "A",
+    explanation: "HCl + NaOH reacts 1:1, so you need 0.025 mol NaOH. Volume = mol ÷ molarity = 0.025 ÷ 0.1 = 0.25 L = 50 mL."
+  },
+  {
+    question: "When preparing a standard solution in a volumetric flask, why should the solid be dissolved in a small volume of solvent first?",
+    answers: {
+      A: "It ensures full dissolution before making up to the final volume",
+      B: "It prevents evaporation",
+      C: "It changes the concentration",
+      D: "It enhances the color of the solution"
     },
-    {
-      "question": "Why is NaOH not used as a primary standard reagent?",
-      "options": {
-        "A": "It is not soluble in water",
-        "B": "It is too expensive",
-        "C": "It absorbs moisture and CO₂ from the air",
-        "D": "It reacts with plastic containers"
-      },
-      "answer": "C",
-      "explanation": "NaOH is hygroscopic and absorbs both moisture and carbon dioxide from air, making it difficult to weigh accurately for standard solutions."
-    }                          ///// To add more questions, copy the section below 
-    ///// this line
-
-
-    /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
-        till closing curly braces comma ( }, )
-
-        and paste it below the curly braces comma ( below correct answer }, ) of above 
-        question
-
-    Copy below section
-
-    {
-      question: "This is question n?",
-      answers: {
-        a: "Option 1",
-        b: "Option 2",
-        c: "Option 3",
-        d: "Option 4"
-      },
-      correctAnswer: "c"
+    correctAnswer: "A",
+    explanation: "Dissolving in a small volume ensures complete dissolution and better accuracy before adjusting to the mark."
+  },
+  {
+    question: "Which error will occur if you mistakenly fill above the calibration mark on the volumetric flask?",
+    answers: {
+      A: "No error",
+      B: "Concentration will be too low",
+      C: "Concentration will be too high",
+      D: "Solvent polarity will change"
     },
+    correctAnswer: "B",
+    explanation: "Filling above the mark increases total volume—while amount of solute stays the same—so concentration is lower than intended."
+  },
+  {
+    question: "Why is KHP (potassium hydrogen phthalate) commonly used to standardize NaOH solutions instead of NaOH itself?",
+    answers: {
+      A: "It’s a liquid",
+      B: "It’s hygroscopic",
+      C: "It has high purity and is stable",
+      D: "It reacts slowly"
+    },
+    correctAnswer: "C",
+    explanation: "KHP is a solid with high purity, stable, non-hygroscopic—ideal as a primary standard for titrating NaOH."
+  }
+];
+
 
     Copy above section
 
