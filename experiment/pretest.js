@@ -86,77 +86,67 @@
 
 
   /////////////// Write the MCQ below in the exactly same described format ///////////////
-
-
-
-  const myQuestions = [
-    {
-      "question": "What is a standard solution?",
-      "options": {
-        "A": "A solution with unknown concentration",
-        "B": "A saturated solution",
-        "C": "A solution of known and fixed concentration",
-        "D": "A colored solution"
-      },
-      "answer": "C",
-      "explanation": "A standard solution is one whose concentration is accurately known and remains stable. It is used in titration and quantitative analysis."
+const myQuestions = [
+  {
+    question: "Which property is NOT required for a substance to serve as a primary standard in preparing a standard solution?",
+    answers: {
+      A: "High purity",
+      B: "Hygroscopic nature",
+      C: "Known formula weight",
+      D: "Stable in air"
     },
-
-    {
-      "question": "Which of the following compounds is most suitable for preparing a primary standard solution?",
-      "options": {
-        "A": "Sodium hydroxide (NaOH)",
-        "B": "Hydrochloric acid (HCl)",
-        "C": "Sodium carbonate (Na2CO3)",
-        "D": "Sulfuric acid (H2SO4)"
-      },
-      "answer": "C",
-      "explanation": "Sodium carbonate is a primary standard because it is pure, stable, has a high molar mass, and does not absorb moisture from the air. Acids like HCl are not suitable because they are volatile or hygroscopic."
+    correctAnswer: "B",
+    explanation: "A suitable primary standard must NOT absorb moisture—i.e., be non‑hygroscopic—so that its mass remains accurate."
+  },
+  {
+    question: "Why is sodium carbonate (Na₂CO₃) commonly used to prepare standard acid solutions?",
+    answers: {
+      A: "It has a low molar mass.",
+      B: "It is easy to weigh and very pure.",
+      C: "It reacts slowly with acids.",
+      D: "It absorbs CO₂ from air."
     },
-    {
-      "question": "What is the correct method to prepare 1 liter of 0.1 M NaCl solution?",
-      "options": {
-        "A": "Dissolve 0.1 g of NaCl in water",
-        "B": "Dissolve 5.84 g of NaCl in water and make up to 1 liter",
-        "C": "Dissolve 0.0584 g of NaCl in 100 mL water",
-        "D": "Add NaCl until water tastes salty"
-      },
-      "answer": "B",
-      "explanation": "To prepare 1 L of 0.1 M NaCl solution, you need 0.1 moles of NaCl. Molar mass of NaCl = 58.44 g/mol. So, 0.1 × 58.44 = 5.844 g ≈ 5.84 g."
+    correctAnswer: "B",
+    explanation: "Na₂CO₃ is pure, stable, easy to dry and weigh accurately, making it ideal as a primary standard for acid titrations."
+  },
+  {
+    question: "To prepare 250 mL of 0.05 M HCl by titrating with standard Na₂CO₃, how many grams of Na₂CO₃ are needed? (M = 106 g/mol)",
+    answers: {
+      A: "0.53 g",
+      B: "1.33 g",
+      C: "2.65 g",
+      D: "5.30 g"
     },
-    {
-      "question": "Why is NaOH not used as a primary standard substance?",
-      "options": {
-        "A": "It is too expensive",
-        "B": "It is not water soluble",
-        "C": "It is unstable and absorbs moisture and CO₂ from the air",
-        "D": "It does not dissolve in alcohol"
-      },
-      "answer": "C",
-      "explanation": "NaOH is hygroscopic and absorbs moisture and carbon dioxide from the atmosphere, making it difficult to weigh accurately. Hence, it is not suitable as a primary standard."
-    }                            ///// To add more questions, copy the section below 
-    ///// this line
-
-
-    /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
-        till closing curly braces comma ( }, )
-
-        and paste it below the curly braces comma ( below correct answer }, ) of above 
-        question
-
-    Copy below section
-
-    {
-      question: "This is question n?",
-      answers: {
-        a: "Option 1",
-        b: "Option 2",
-        c: "Option 3",
-        d: "Option 4"
-      },
-      correctAnswer: "c"
+    correctAnswer: "C",
+    explanation: "For 0.05 M × 0.250 L = 0.0125 mol HCl; need same moles Na₂CO₃, so 0.0125×106 ≈ 1.325 g—but Na₂CO₃·10H₂O? If anhydrous, ≈ 1.33 g."
+  },
+  {
+    question: "Which step is NOT part of preparing a standard solution?",
+    answers: {
+      A: "Drying and weighing the primary standard",
+      B: "Dissolving it in a small volume of water",
+      C: "Diluting to the final volume in a volumetric flask",
+      D: "Titrating it immediately before diluting"
     },
+    correctAnswer: "D",
+    explanation: "You dissolve and transfer to the flask, then dilute. You don’t titrate before dilution—that's for determination, not preparation."
+  },
+  {
+    question: "Which reagent is unsuitable as a primary standard?",
+    answers: {
+      A: "Potassium hydrogen phthalate (KHP)",
+      B: "Anhydrous sodium carbonate",
+      C: "Sodium hydroxide",
+      D: "Silver nitrate"
+    },
+    correctAnswer: "C",
+    explanation: "NaOH is hygroscopic and absorbs CO₂, so it cannot be weighed accurately and is not suitable as a primary standard."
+  }
+];
 
+
+
+  
     Copy above section
 
     */
