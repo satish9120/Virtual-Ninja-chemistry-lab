@@ -136,8 +136,8 @@ const myQuestions = [
   {
     question: "Why is KHP (potassium hydrogen phthalate) commonly used to standardize NaOH solutions instead of NaOH itself?",
     answers: {
-      A: "It’s a liquid",
-      B: "It’s hygroscopic",
+      A: "It is a liquid",
+      B: "It is hygroscopic",
       C: "It has high purity and is stable",
       D: "It reacts slowly"
     },
@@ -146,15 +146,6 @@ const myQuestions = [
   }
 ];
 
-
-    Copy above section
-
-    */
-
-
-
-
-  ];
 
 
 
